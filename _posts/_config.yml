@@ -1,3 +1,8 @@
 title: Блог о сумках
 description: Советы по выбору сумок и модные тренды
 theme: minima
+plugins:
+  - jekyll-feed
+
+baseurl: "/bags-blog"
+url: "https://sunnyplus.github.io"
