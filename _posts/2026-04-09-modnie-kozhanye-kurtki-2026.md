@@ -1,0 +1,11 @@
+modnie-kozhanye-kurtki-2026
+
+---
+layout: post
+title: "Модные кожаные куртки в 2026 году: главные тренды, с чем носить"
+date: 2026-04-09
+description: "Кожаная куртка — один из главных трендов весны-лета 2026. Узнайте, какие модели в моде и с чем их стильно сочетать."
+image: "https://images.unsplash.com/photo-1774254379284-640a85323f55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MjAxNDZ8MHwxfHNlYXJjaHwxfHwlRDAlOUMlRDAlQkYlRDAlQjQlRDAlQkQlRDElOEIlRDAlQjUlMjAlRDAlQkElRDAlQkUlRDAlQjYlRDAlQjAlRDAlQkQlRDElOEIlRDAlQjUlMjAlRDAlQkElRDElODMlRDElODAlRDElODIlRDAlQkElRDAlQjglMjAlRDAlQjIlMjAyMDI2JTIwJUQwJUIzJUQwJUJFJUQwJUI0JUQxJTgzJTNBJTIwJUQwJUIzJUQwJUJCJUQwJUIwJUQwJUIyJUQwJUJEJUQxJThCJUQwJUI1JTIwJUQxJTgyJUQxJTgwJUQwJUI1JUQwJUJEJUQwJUI0JUQxJThCJTJDJTIwJUQxJTgxJTIwJUQxJTg3JUQwJUI1JUQwJUJDJTIwJUQwJUJEJUQwJUJFJUQxJTgxJUQwJUI4JUQxJTgyJUQxJThDfGVufDB8MHx8fDE3NzU3NTEyNjd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+---
+
+Одним из самых популярных предметов одежды на показах весенне-летних коллекций 2026 года стала кожаная куртка. Эту верхнюю одежду можно стилизовать практически с любыми образами, будь то женственные платья и юбки или повседневные джинсы. Подробнее о том, какие модели в моде и с чем их носить, — в материале «Ленты.ру».
