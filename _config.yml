@@ -1,8 +1,16 @@
 title: Блог о сумках
 description: Советы по выбору сумок и модные тренды
-theme: minima
-plugins:
-  - jekyll-feed
+avito_url: "ССЫЛКА_НА_ТВОЁ_ОБЪЯВЛЕНИЕ_НА_АВИТО"
 
 url: "https://rusoxy.ru"
 baseurl: ""
+
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
