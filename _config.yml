@@ -4,5 +4,5 @@ theme: minima
 plugins:
   - jekyll-feed
 
-baseurl: "/bags-blog"
 url: "https://rusoxy.ru"
+baseurl: ""
