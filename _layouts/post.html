@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="post-wrapper">
+  <article class="post">
+    <header class="post-header">
+      <div class="post-meta">
+        <time>{{ page.date | date: "%d %B %Y" }}</time>
+      </div>
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.description %}
+      <p class="post-lead">{{ page.description }}</p>
+      {% endif %}
+    </header>
+
+    {% if page.image %}
+    <div class="post-hero-image">
+      <img src="{{ page.image }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+
+    <div class="post-cta">
+      <p>Понравилась статья? Загляните в наш магазин — здесь вы найдёте сумки на любой вкус.</p>
+      <a href="{{ site.avito_url }}" class="cta-button" target="_blank">Смотреть сумки на Авито →</a>
+    </div>
+  </article>
+
+  <aside class="post-sidebar">
+    <div class="sidebar-widget">
+      <h3>Читайте также</h3>
+      <ul class="sidebar-posts">
+        {% for post in site.posts limit:5 %}
+          {% if post.url != page.url %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <span>{{ post.date | date: "%d.%m.%Y" }}</span>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </aside>
+</div>

@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="home-hero">
+  <div class="hero-text">
+    <h1>Мода. Стиль. <em>Сумки.</em></h1>
+    <p>Советы, тренды и подборки для тех, кто знает толк в аксессуарах</p>
+  </div>
+</div>
+
+<div class="posts-grid">
+  {% for post in site.posts %}
+  <article class="post-card {% if forloop.first %}post-card--featured{% endif %}">
+    <div class="post-card__image">
+      {% if post.image %}
+        <img src="{{ post.image }}" alt="{{ post.title }}">
+      {% else %}
+        <div class="post-card__image-placeholder">
+          <span>✦</span>
+        </div>
+      {% endif %}
+    </div>
+    <div class="post-card__body">
+      <div class="post-card__date">{{ post.date | date: "%d.%m.%Y" }}</div>
+      <h2 class="post-card__title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+      {% if post.description %}
+      <p class="post-card__excerpt">{{ post.description }}</p>
+      {% endif %}
+      <a href="{{ post.url | relative_url }}" class="post-card__link">Читать →</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
