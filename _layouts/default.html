@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-top">
+    <nav class="header-nav">
+      <a href="{{ '/' | relative_url }}">Главная</a>
+      <a href="{{ '/about' | relative_url }}">О блоге</a>
+    </nav>
+    <a href="{{ '/' | relative_url }}" class="site-logo">
+      <span class="logo-sub">блог о</span>
+      <span class="logo-main">СУМКАХ</span>
+    </a>
+    <div class="header-right">
+      <span class="tagline">{{ site.description }}</span>
+    </div>
+  </div>
+  <div class="header-stripe"></div>
+</header>
+
+<main class="site-main">
+  {{ content }}
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-logo">СУМКИ</div>
+    <p>{{ site.description }}</p>
+    <p class="footer-copy">© {{ site.title }} {{ 'now' | date: "%Y" }}</p>
+  </div>
+</footer>
+
+</body>
+</html>
